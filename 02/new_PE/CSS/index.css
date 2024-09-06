@@ -93,7 +93,7 @@
     margin: 50px 50px 50px 133px;
     list-style-type: none;
 
-}
+} 
 
 .d_1 {
 
@@ -101,7 +101,7 @@
     width: 10px;
     height: 10px;
     left: 139px;
-    top: 478px;
+    top: 488px;
     border-radius: 25px;
     background: #780000;
 }
@@ -111,7 +111,7 @@
     width: 10px;
     height: 10px;
     left: 139px;
-    top: 506px;
+    top: 516px;
     border-radius: 25px;
     background: #780000;
 }
@@ -121,7 +121,7 @@
     width: 10px;
     height: 10px;
     left: 139px;
-    top: 532px;
+    top: 542px;
     border-radius: 25px;
     background: #780000;
 }
@@ -131,7 +131,7 @@
     width: 10px;
     height: 10px;
     left: 139px;
-    top: 558px;
+    top: 568px;
     border-radius: 25px;
     background: #780000;
 }
@@ -153,7 +153,7 @@
     width: 10px;
     height: 10px;
     left: 139px;
-    top: 720px;
+    top: 730px;
     border-radius: 25px;
     background: #780000;
 }
@@ -163,7 +163,7 @@
     width: 10px;
     height: 10px;
     left: 139px;
-    top: 748px;
+    top: 758px;
     border-radius: 25px;
     background: #780000;
 }
@@ -173,7 +173,7 @@
     width: 10px;
     height: 10px;
     left: 139px;
-    top: 776px;
+    top: 786px;
     border-radius: 25px;
     background: #780000;
 }
@@ -183,7 +183,7 @@
     width: 10px;
     height: 10px;
     left: 139px;
-    top: 804px;
+    top: 814px;
     border-radius: 25px;
     background: #780000;
 }
@@ -193,19 +193,19 @@
     width: 10px;
     height: 10px;
     left: 139px;
-    top: 832px;
+    top: 842px;
     border-radius: 25px;
     background: #780000;
 }
 
 .poli {
-    position: absolute;
     height: 500;
     width: 561px;
-    left: 60%;
-    right: 6.44%;
-    top: 24.37%;
-    bottom: 35.48%;
+    margin: 20px 150px 20px 200px;
+}
+
+table{
+    text-align: left;
 }
 
 /* FOOTER */ 
@@ -216,11 +216,12 @@ footer {
     padding-left: 30px;
     background-color: #780000;
 }
-.text {
+
+
+.footer p{
     color: #ffffff;
     font-size: 20px;
     font-weight: bold;
-
 }
 
 .footer {
