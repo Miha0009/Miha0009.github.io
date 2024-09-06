@@ -1,0 +1,191 @@
+/* Header*/
+
+.left {
+
+display: inline-block;
+font-family: 'Salina-Trial';
+font-style: normal;
+font-weight: 700;
+font-size: 35px;
+line-height: 47px;
+
+color: #780000;
+
+}
+
+nav{
+    margin-top: 30px;
+    margin-right: 267px;
+}
+
+.nav {
+    display: inline-block;
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    padding: 10px;
+    color: #011936;
+}
+
+header ul{
+    
+    text-align: right;
+}
+
+header li{
+   font-size: 18px;
+   line-height: 40px;
+   height: 40px;
+   margin-left: 66px;
+   display: inline;
+   text-align: right;
+   
+}
+header a{
+    color: #011936;
+    text-decoration: none;
+}
+
+.left {
+    float: left;
+}
+
+hr {
+    order: 1px solid #011936;
+}
+
+
+/* personal info*/
+
+
+
+.container {
+
+    display: flex;
+    align-items: center;
+    margin-top: 46px;
+}
+
+.red-box .text-content {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.red-box {
+    width: 113px;
+    height: 90px;
+    background-color: #7b0a0a;
+    border-radius: 0 25px 25px 0;
+    margin-right: 20px;
+}
+.text-content {
+    max-width: 588px;
+    margin-top: 20px;
+    
+}
+
+.text-content p {
+    margin: 0;
+}
+
+.mn {
+    font-family: 'Century Gothic';
+    font-size: 18px;
+    border: 8px;
+    padding-bottom: 6px;
+
+}
+.name {
+    font-size: 35px;
+    font-family: 'Salina-Trial';
+    font-weight: bold;
+    color: #011936;
+    padding-bottom: 8px;
+    
+}
+.description {
+    font-size: 18px;
+    color: #4a4a4a;
+    font-family: 'Century Gothic';
+}
+
+/*Extra-curricular activities*/
+
+.main_1 {
+    display: grid;
+    grid-template-columns: 1fr ;
+    gap: 5px;
+}
+
+.ul_2 {
+    list-style: none;
+    padding: 0;
+    margin: 0 120px 20px 56px;
+}
+.li_2 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+.li_2 img {
+    width: 101px;
+    height: 101px;
+}
+.li_2 p {
+    margin: 0;
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    text-align: justify;
+    color: #011936;
+}
+
+.poli {
+    position: absolute;
+    left: 66.95%;
+    right: 6.44%;
+    top: 18.37%;
+    bottom: 37.48%;
+}
+/* FOOTER */ 
+
+footer { 
+    padding-top: 2px;
+    height: 100%;
+    padding-left: 30px;
+    background-color: #780000;
+}
+.text {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.footer {
+    display: inline-block;
+}
+
+.photo {
+    position: absolute;
+    width: 51px;
+    height: 52px;
+    left: 1750px;
+    top: 890px;
+    
+}
+
+.photo2 {
+    position: absolute;
+    width: 51px;
+    height: 51px;
+    left: 1750px;
+    top: 822px;
+}
+
+

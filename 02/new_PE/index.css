@@ -1,0 +1,245 @@
+/* Header*/
+
+.left {
+
+    display: inline-block;
+    font-family: 'Salina-Trial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 47px;
+    
+    color: #780000;
+    
+    }
+    
+    nav{
+        margin-top: 30px;
+        margin-right: 267px;
+    }
+    
+    .nav {
+        display: inline-block;
+        font-family: 'Century Gothic';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 18px;
+        padding: 10px;
+        color: #011936;
+    }
+    
+    header ul{
+        
+        text-align: right;
+    }
+    
+    header li{
+       font-size: 18px;
+       line-height: 40px;
+       height: 40px;
+       margin-left: 66px;
+       display: inline;
+       text-align: right;
+       
+    }
+    header a{
+        color: #011936;
+        text-decoration: none;
+    }
+    
+    .left {
+        float: left;
+    }
+    
+    hr {
+        order: 1px solid #011936;
+    }
+    
+    
+    
+    /*main part*/
+
+.title {
+    font-family: 'Salina-Trial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 41px;
+    color: #011936;
+    margin-left: 25px;
+    margin-top: 25px;
+}
+
+.pro_ict {
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 18px;
+    line-height: 18px;
+    color: #011936;
+    margin: 50px 50px 50px 133px;
+}
+
+/*ufff ul 1*/
+
+.ul_2{
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: 400px;
+    font-size: 18px;
+    line-height: 18px;
+    color: #011936;
+    margin: 50px 50px 50px 133px;
+    list-style-type: none;
+
+}
+
+.d_1 {
+
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    left: 139px;
+    top: 478px;
+    border-radius: 25px;
+    background: #780000;
+}
+
+.d_2{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    left: 139px;
+    top: 506px;
+    border-radius: 25px;
+    background: #780000;
+}
+
+.d_3{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    left: 139px;
+    top: 532px;
+    border-radius: 25px;
+    background: #780000;
+}
+
+.d_4{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    left: 139px;
+    top: 558px;
+    border-radius: 25px;
+    background: #780000;
+}
+
+.li_2{
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    color: #011936;
+    margin-bottom: 10px;
+}
+
+/*ufff ul 1*/
+
+.d_5{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    left: 139px;
+    top: 720px;
+    border-radius: 25px;
+    background: #780000;
+}
+
+.d_6{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    left: 139px;
+    top: 748px;
+    border-radius: 25px;
+    background: #780000;
+}
+
+.d_7{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    left: 139px;
+    top: 776px;
+    border-radius: 25px;
+    background: #780000;
+}
+
+.d_8{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    left: 139px;
+    top: 804px;
+    border-radius: 25px;
+    background: #780000;
+}
+
+.d_9{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    left: 139px;
+    top: 832px;
+    border-radius: 25px;
+    background: #780000;
+}
+
+.poli {
+    position: absolute;
+    height: 500;
+    width: 561px;
+    left: 60%;
+    right: 6.44%;
+    top: 24.37%;
+    bottom: 35.48%;
+}
+
+/* FOOTER */ 
+
+footer { 
+    padding-top: 2px;
+    height: 100%;
+    padding-left: 30px;
+    background-color: #780000;
+}
+.text {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.footer {
+    display: inline-block;
+}
+
+.photo {
+    position: absolute;
+    width: 51px;
+    height: 52px;
+    left: 1750px;
+    top: 1010px;
+    
+}
+
+.photo2 {
+    position: absolute;
+    width: 51px;
+    height: 51px;
+    left: 1750px;
+    top: 942px;
+}
