@@ -1,13 +1,16 @@
 /* Header*/
 
 .left {
+
     display: inline-block;
     font-family: 'Salina-Trial';
     font-style: normal;
     font-weight: 700;
     font-size: 35px;
     line-height: 47px;
+
     color: #780000;
+
 }
 
 nav {
@@ -27,6 +30,7 @@ nav {
 }
 
 header ul {
+
     text-align: right;
 }
 
@@ -37,6 +41,7 @@ header li {
     margin-left: 66px;
     display: inline;
     text-align: right;
+
 }
 
 header a {
@@ -48,61 +53,48 @@ header a {
     float: left;
 }
 
-hr {
+nav hr {
     order: 1px solid #011936;
 }
 
-/*dashboard*/
 
-table {
-    border: 1px solid #780000;
-    border-collapse: collapse;
-    margin: 50px;
+
+/*main part*/
+
+main{
+    margin: 100px;
 }
 
-th {
-    background-color: #780000;
-    color: rgb(255, 255, 255);
-    width: 30%;
+h2 {
     font-family: 'Salina-Trial';
     font-style: normal;
-    font-size: 22px;
-    text-align: center;
-}
-
-td {
-    color: #780000;
-    font-family: 'Century Gothic';
-    font-style: normal;
-    font-size: 18px;
-    text-align: center;
-}
-
-td, th {
-    width: 30%;
-    padding: 7px;
-    height: 25px;
-    border: 1px solid #011936;
-}
-
-h1 {
-    font-family: 'Salina-Trial';
-    font-style: normal;
+    font-weight: 700;
     font-size: 40px;
-    text-align: center;
-    color: #780000;
+    line-height: 54px;
+    color: #011936;
 }
 
 h3 {
+font-family: 'Salina-Trial';
+font-style: normal;
+font-weight: 700;
+font-size: 30px;
+line-height: 41px;
+color: #011936;
 
-    font-family: 'Century Gothic';
-    font-style: normal;
-    font-size: 25px;
-    text-align: center;
-    color: #780000;
-    margin-bottom: 50px;
 
 }
+
+
+.main_01 {
+font-family: 'Century Gothic';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 18px;
+color: #011936;
+}
+
 
 /* FOOTER */
 
@@ -113,11 +105,11 @@ footer {
     background-color: #780000;
 }
 
-.text {
+
+.footer p {
     color: #ffffff;
     font-size: 20px;
     font-weight: bold;
-
 }
 
 .footer {
@@ -129,7 +121,8 @@ footer {
     width: 51px;
     height: 52px;
     left: 1750px;
-    top: 1450px;
+    top: 1010px;
+
 }
 
 .photo2 {
@@ -137,9 +130,8 @@ footer {
     width: 51px;
     height: 51px;
     left: 1750px;
-    top: 1382px;
+    top: 942px;
 }
-
 
 /*aside menu*/
 
@@ -166,7 +158,7 @@ footer {
 #aside-menu ul {
     padding: 0px;
     margin: 10px 2px 0px 0px;
-    text-align: right;
+    text-align: left;
     font-family: 'Century Gothic';
     font-style: normal;
     font-size: 15px;

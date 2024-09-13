@@ -12,12 +12,23 @@
             <ul>
                 <div class="left">Maria</div>
                 <li class="nav"><a href="../index.html">Home</a></li>
-                <li class="nav" style="font-weight: bold;"><a href="../HTML/profile.html">Profile</a></li>
-                <li class="nav"><a href="../HTML/dashboard.html">Dashboard</a></li>
-                <li class="nav"><a href="">FAQ</a></li>
-                <li class="nav"><a href="">Blog</a></li>
+                <li class="nav" style="font-weight: bold;"><a href="profile.html">Profile</a></li>
+                <li class="nav"><a href="dashboard.html">Dashboard</a></li>
+                <li class="nav"><a href="faq.html">FAQ</a></li>
+                <li class="nav"><a href="blog.html">Blog</a></li>
+                <li><button id="aside-toggle"><img src="/images/as.png" alt="" width="35px" height="15px"></button></li>
 
             </ul>
+
+            <aside id="aside-menu">
+                <ul>
+                    <li><a href="https://oer.hz.nl/6978cdea-fb31-430b-9bf9-63206aa07754">HZ HBO-ICT CER</a></li>
+                    <li><a href="https://hz.nl/uploads/documents/1.4-Over-de-HZ/1.4.3.-Regelingen-en-documenten/OERS/2023-2024/Juli/TWE/IR-B-HBO-ICT-full-time-2023-2024-DEF.pdf">IR of the HBO-ICT</a></li>
+                    <li><a href="https://learn.hz.nl/my/">Learn environment</a></li>
+                    <li><a href="https://hz.osiris-student.nl/home">Study Progress</a></li>
+                    <li><a href="https://github.com/HZ-HBO-ICT">GitHub HBO-ICT</a></li>
+                </ul>
+            </aside>
         </nav>    
             <hr>
         </header>
@@ -80,6 +91,12 @@
         </footer>
       
         </body>
-      </html>
-</body>
+
+<script>
+    const asideMenu = document.getElementById('aside-menu');
+    const asideToggle = document.getElementById('aside-toggle');
+    asideToggle.addEventListener('click', () => {
+        asideMenu.classList.toggle('open');
+    });
+</script>
 </html>

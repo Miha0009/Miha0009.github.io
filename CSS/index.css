@@ -8,57 +8,58 @@
     font-weight: 700;
     font-size: 35px;
     line-height: 47px;
-    
+
     color: #780000;
-    
-    }
-    
-    nav{
-        margin-top: 30px;
-        margin-right: 267px;
-    }
-    
-    .nav {
-        display: inline-block;
-        font-family: 'Century Gothic';
-        font-style: normal;
-        font-weight: 400;
-        font-size: 15px;
-        line-height: 18px;
-        padding: 10px;
-        color: #011936;
-    }
-    
-    header ul{
-        
-        text-align: right;
-    }
-    
-    header li{
-       font-size: 18px;
-       line-height: 40px;
-       height: 40px;
-       margin-left: 66px;
-       display: inline;
-       text-align: right;
-       
-    }
-    header a{
-        color: #011936;
-        text-decoration: none;
-    }
-    
-    .left {
-        float: left;
-    }
-    
-    hr {
-        order: 1px solid #011936;
-    }
-    
-    
-    
-    /*main part*/
+
+}
+
+nav {
+    margin-top: 30px;
+    margin-right: 267px;
+}
+
+.nav {
+    display: inline-block;
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    padding: 10px;
+    color: #011936;
+}
+
+header ul {
+
+    text-align: right;
+}
+
+header li {
+    font-size: 18px;
+    line-height: 40px;
+    height: 40px;
+    margin-left: 66px;
+    display: inline;
+    text-align: right;
+
+}
+
+header a {
+    color: #011936;
+    text-decoration: none;
+}
+
+.left {
+    float: left;
+}
+
+hr {
+    order: 1px solid #011936;
+}
+
+
+
+/*main part*/
 
 .title {
     font-family: 'Salina-Trial';
@@ -83,7 +84,7 @@
 
 /*ufff ul 1*/
 
-.ul_2{
+.ul_2 {
     font-family: 'Century Gothic';
     font-style: normal;
     font-weight: 400px;
@@ -93,7 +94,7 @@
     margin: 50px 50px 50px 133px;
     list-style-type: none;
 
-} 
+}
 
 .d_1 {
 
@@ -106,7 +107,7 @@
     background: #780000;
 }
 
-.d_2{
+.d_2 {
     position: absolute;
     width: 10px;
     height: 10px;
@@ -116,7 +117,7 @@
     background: #780000;
 }
 
-.d_3{
+.d_3 {
     position: absolute;
     width: 10px;
     height: 10px;
@@ -126,7 +127,7 @@
     background: #780000;
 }
 
-.d_4{
+.d_4 {
     position: absolute;
     width: 10px;
     height: 10px;
@@ -136,7 +137,7 @@
     background: #780000;
 }
 
-.li_2{
+.li_2 {
     font-family: 'Century Gothic';
     font-style: normal;
     font-weight: 400;
@@ -148,7 +149,7 @@
 
 /*ufff ul 1*/
 
-.d_5{
+.d_5 {
     position: absolute;
     width: 10px;
     height: 10px;
@@ -158,7 +159,7 @@
     background: #780000;
 }
 
-.d_6{
+.d_6 {
     position: absolute;
     width: 10px;
     height: 10px;
@@ -168,7 +169,7 @@
     background: #780000;
 }
 
-.d_7{
+.d_7 {
     position: absolute;
     width: 10px;
     height: 10px;
@@ -178,7 +179,7 @@
     background: #780000;
 }
 
-.d_8{
+.d_8 {
     position: absolute;
     width: 10px;
     height: 10px;
@@ -188,7 +189,7 @@
     background: #780000;
 }
 
-.d_9{
+.d_9 {
     position: absolute;
     width: 10px;
     height: 10px;
@@ -204,13 +205,13 @@
     margin: 20px 150px 20px 200px;
 }
 
-table{
+table {
     text-align: left;
 }
 
-/* FOOTER */ 
+/* FOOTER */
 
-footer { 
+footer {
     padding-top: 2px;
     height: 100%;
     padding-left: 30px;
@@ -218,7 +219,7 @@ footer {
 }
 
 
-.footer p{
+.footer p {
     color: #ffffff;
     font-size: 20px;
     font-weight: bold;
@@ -234,7 +235,7 @@ footer {
     height: 52px;
     left: 1750px;
     top: 1010px;
-    
+
 }
 
 .photo2 {
@@ -243,4 +244,42 @@ footer {
     height: 51px;
     left: 1750px;
     top: 942px;
+}
+
+/*aside menu*/
+
+
+#aside-toggle {
+    background-color: #ffffff;
+    cursor: pointer;
+    border: 0px;
+}
+
+#aside-menu {
+    position: absolute;
+    top: 0;
+    left: 100%;
+    width: 237px;
+    height: 100vh;
+    background-color: #ffffff;
+    padding: 0px;
+    transform: translateX(-100%);
+    transition: transform 0.3s ease-in-out;
+    border-left: #011936 1px solid;
+}
+
+#aside-menu ul {
+    padding: 0px;
+    margin: 10px 2px 0px 0px;
+    text-align: right;
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-size: 15px;
+    color: #011936;
+
+
+}
+
+#aside-menu.open {
+    transform: translateX(0);
 }

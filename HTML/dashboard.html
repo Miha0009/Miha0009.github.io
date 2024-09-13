@@ -15,18 +15,29 @@
             <ul>
                 <div class="left">Maria</div>
                 <li class="nav"><a href="../index.html">Home</a></li>
-                <li class="nav"><a href="../HTML/profile.html">Profile</a></li>
-                <li class="nav" style="font-weight: bold;"><a href="../HTML/dashboard.html">Dashboard</a></li>
-                <li class="nav"><a href="">FAQ</a></li>
-                <li class="nav"><a href="">Blog</a></li>
+                <li class="nav"><a href="profile.html">Profile</a></li>
+                <li class="nav" style="font-weight: bold;"><a href="dashboard.html">Dashboard</a></li>
+                <li class="nav"><a href="faq.html">FAQ</a></li>
+                <li class="nav"><a href="blog.html">Blog</a></li>
+                <li><button id="aside-toggle"><img src="/images/as.png" alt="" width="35px" height="15px"></button></li>
 
             </ul>
+
+            <aside id="aside-menu">
+                <ul>
+                    <li><a href="https://oer.hz.nl/6978cdea-fb31-430b-9bf9-63206aa07754">HZ HBO-ICT CER</a></li>
+                    <li><a href="https://hz.nl/uploads/documents/1.4-Over-de-HZ/1.4.3.-Regelingen-en-documenten/OERS/2023-2024/Juli/TWE/IR-B-HBO-ICT-full-time-2023-2024-DEF.pdf">IR of the HBO-ICT</a></li>
+                    <li><a href="https://learn.hz.nl/my/">Learn environment</a></li>
+                    <li><a href="https://hz.osiris-student.nl/home">Study Progress</a></li>
+                    <li><a href="https://github.com/HZ-HBO-ICT">GitHub HBO-ICT</a></li>
+                </ul>
+            </aside>
+            
         </nav>
         <hr>
     </header>
 
     <table>
-
         <thead>
             <tr>
                 <th>Quater</th>
@@ -37,37 +48,37 @@
             </tr>
         </thead>
 
-        <tr>
+        <tr class="block1">
             <td rowspan = "3">Block 1</td>
             <td>Program- & Career Orientation</td>
             <td>2,5</td>
-            <td>Individual process assessment</td>
+            <td>Presentation (individual)</td>
             <td>0</td>
         </tr>
-        <tr>
+        <tr class="block1">
             <!---->
             <td>Computer Science Basics</td>
             <td>5</td>
-            <td>Tentamen</td>
+            <td>Written knowledge test</td>
             <td>0</td>
         </tr>
-        <tr>
+        <tr class="block1">
             <!---->
             <td>Programming Basics</td>
             <td>5</td>
-            <td>Case test</td>
+            <td>Written knowledge test</td>
             <td>0</td>
         </tr>
 
 
-        <tr>
+        <tr class="block2">
             <td rowspan = "2">Block 2</td>
             <td rowspan = "2">Object-Oriented Programming</td>
             <td>5</td>
-            <td>Presentation</td>
+            <td>Presentation (individual)</td>
             <td>0</td>
         </tr>
-        <tr>
+        <tr class="block2">
             <!-- -->
             
             <td>5</td>
@@ -76,83 +87,91 @@
         </tr>
 
     
-        <tr>
+        <tr class="block1">
             <td rowspan = "4">Block 3</td>
             <td rowspan = "4">Framework Project 1</td>
-            <td>5</td>
+            <td>4</td>
             <td>Written knowledge test</td>
             <td>0</td>
         </tr>
-        <tr>
+        <tr class="block1">
             <!-- -->
             
-            <td>1.25</td>
+            <td>1</td>
             <td>Written knowledge test</td>
             <td>0</td>
         </tr>
-        <tr>
+        <tr class="block1">
             <!-- -->
             
             <td>2.5</td>
-            <td>Assignment (group)</td>
+            <td>Presentation (group)</td>
             <td>0</td>
         </tr>
-        <tr>
+        <tr class="block1">
             <!-- -->
             
-            <td>1.25</td>
+            <td>2.5</td>
+            <td>Portfolio</td>
+            <td>0</td>
+        </tr>
+
+
+        <tr class="block2">
+            <td rowspan = "3">Block 4</td>
+            <td rowspan = "3">Framework Project 2</td>
+            <td>2.5</td>
+            <td>Presentation (group)</td>
+            <td>0</td>
+        </tr>
+        <tr class="block2">
+            <!-- -->
+            
+            <td>2.5</td>
+            <td rowspan="2">Portfolio</td>
+            <td>0</td>
+        </tr>
+        <tr class="block2">
+            <!-- -->
+            
+            <td>5</td>
+            <!-- -->
+            <td>0</td>
+        </tr>
+
+
+        <tr class="block1">
+            <td>Block 3-4</td>
+            <td>Business IT Consultancy Basics</td>
+            <td>2,5</td>
             <td>Assignment (individual)</td>
             <td>0</td>
         </tr>
 
-
-        <tr>
-            <td rowspan = "3">Block 4</td>
-            <td rowspan = "3">Framework Project 2</td>
-            <td>2.5</td>
-            <td>Portfolio</td>
-            <td>0</td>
-        </tr>
-        <tr>
-            <!-- -->
-            
-            <td>2.5</td>
-            <td>Portfolio</td>
-            <td>0</td>
-        </tr>
-        <tr>
-            <!-- -->
-            
-            <td>5</td>
-            <td>Portfolio</td>
-            <td>0</td>
-        </tr>
-
-
-        <tr>
+        <tr class="block2">
             <td>Block 1-4</td>
             <td>Personal Professional Development Exploration</td>
             <td>12,5</td>
             <td>Criterion-referenced assessment</td>
             <td>0</td>
         </tr>
-        <tr>
-            <td>Block 2-4</td>
-            <td>IT Personality</td>
-            <td>2,5</td>
+
+        <tr class="block1">
+            <td rowspan="2">Block 2-4</td>
+            <td>IT Personality 1</td>
+            <td>1,25</td>
             <td>Portfolio</td>
             <td>0</td>
         </tr>
-        <tr>
-            <td>Block 3-4</td>
-            <td>Business IT Consultancy Basics</td>
-            <td>2,5</td>
-            <td>Assignment</td>
+        <tr class="block1">
+            <!-- -->
+            <td>IT Personality 2</td>
+            <td>1,25</td>
+            <td>Portfolio</td>
             <td>0</td>
         </tr>
-
     </table>
-
+    
     <h1>Progress Overview</h1>
     <h1>0/60</h1>
     <h3>NBSA boundary: 45 EC</h3>
@@ -173,6 +192,14 @@
     </footer>
 
 </body>
+
+<script>
+    const asideMenu = document.getElementById('aside-menu');
+    const asideToggle = document.getElementById('aside-toggle');
+    asideToggle.addEventListener('click', () => {
+        asideMenu.classList.toggle('open');
+    });
+</script>
 
 </html>
 
