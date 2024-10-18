@@ -1,0 +1,63 @@
+/*main part*/
+
+.m_text p {
+    margin: 50px 300px 50px 133px;
+    font-size: 18px;
+    color: #011936;
+    font-family: 'Century Gothic';
+}
+
+h2 {
+    margin-left: 20px;
+    margin-right: 330px;
+    font-family: 'Salina-Trial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 41px;
+    color: #011936;
+}
+
+h3 {
+    margin-left: 133px;
+    margin-right: 330px;
+    font-family: 'Salina-Trial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 41px;
+    color: #011936;
+}
+
+.m_text {
+    margin-bottom: 100px;
+    margin-left: 133px;
+    font-size: 18px;
+    color: #011936;
+    font-family: 'Century Gothic';
+}
+
+.red-box .text-content {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.red-box {
+    width: 113px;
+    height: 90px;
+    background-color: #7b0a0a;
+    border-radius: 0 25px 25px 0;
+    margin-right: 20px;
+}
+
+.text-content {
+    margin-top: 20px;
+
+}
+
+.container {
+
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+}

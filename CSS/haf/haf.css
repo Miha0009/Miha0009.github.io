@@ -1,0 +1,133 @@
+/* Header*/
+
+.left {
+
+    display: inline-block;
+    font-family: 'Salina-Trial';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 47px;
+    color: #780000;
+
+}
+
+nav {
+    margin-top: 30px;
+    margin-right: 267px;
+}
+
+.nav {
+    display: inline-block;
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    padding: 10px;
+    color: #011936;
+}
+
+.navUl {
+
+    text-align: right;
+}
+
+.navUl li {
+    font-size: 18px;
+    line-height: 40px;
+    height: 40px;
+    margin-left: 66px;
+    display: inline;
+    text-align: right;
+
+}
+
+header a {
+    color: #011936;
+    text-decoration: none;
+}
+
+.left {
+    float: left;
+}
+
+nav hr {
+    order: 1px solid #011936;
+}
+
+/*aside menu*/
+
+.divAsideMenu {
+    display: flex;
+    flex: 1;
+}
+
+
+
+#aside-toggle {
+    background-color: #ffffff;
+    cursor: pointer;
+    border: 0px;
+}
+
+#aside-menu {
+    padding: 1em 0 1em 0;
+    flex: 1 1 100px;
+    position: absolute;
+    top: 0;
+    left: 100%;
+    width: 200px;
+    background-color: #ffffff;
+    transform: translateX(-100%);
+    border-left: #011936 1px solid;
+}
+
+#aside-menu ul {
+    margin: 10px 2px 0px 0px;
+    text-align: left;
+    font-family: 'Century Gothic';
+    font-style: normal;
+    font-size: 15px;
+    color: #011936;
+
+
+}
+
+#aside-menu.open {
+    transform: translateX(0);
+}
+
+/* FOOTER */
+footer {
+    padding-top: 2px;
+    height: 100%;
+    padding-left: 30px;
+    background-color: #780000;
+}
+.footer p {
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.footer {
+    display: inline-block;
+    margin-right: 85%;
+}
+
+.footerImg{
+    display: inline-block;
+    text-align: right;
+
+}
+
+.photo {
+    margin-bottom: 10px;
+
+}
+
+.photo2 {
+    margin-top:  10px;
+}
+

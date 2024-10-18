@@ -5,31 +5,37 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../CSS/blog.css">
+    <link rel="stylesheet" href="../CSS/haf/haf.css">
+    <link rel="stylesheet" href="../JS/js.js">
     <title>Document</title>
 </head>
 
 <body>
     <header>
         <nav>
-            <ul>
+            <ul class="navUl">
                 <div class="left">Maria</div>
+                <img src="../images/hz_logo.png" alt="hz_logo" class="logo" width="28" height="33">
                 <li class="nav"><a href="../index.html">Home</a></li>
                 <li class="nav"><a href="profile.html">Profile</a></li>
                 <li class="nav"><a href="dashboard.html">Dashboard</a></li>
                 <li class="nav"><a href="faq.html">FAQ</a></li>
                 <li class="nav" style="font-weight: bold;"><a href="blog.html">Blog</a></li>
-                <li><button id="aside-toggle"><img src="/images/as.png" alt="" width="35px" height="15px"></button></li>
+                <li><button id="aside-toggle"><img src="../images/as.png" alt="" width="35px" height="15px"></button>
+                </li>
 
 
             </ul>
 
             <aside id="aside-menu">
                 <ul>
-                    <li><a href="https://oer.hz.nl/6978cdea-fb31-430b-9bf9-63206aa07754">HZ HBO-ICT CER</a></li>
-                    <li><a href="https://hz.nl/uploads/documents/1.4-Over-de-HZ/1.4.3.-Regelingen-en-documenten/OERS/2023-2024/Juli/TWE/IR-B-HBO-ICT-full-time-2023-2024-DEF.pdf">IR of the HBO-ICT</a></li>
-                    <li><a href="https://learn.hz.nl/my/">Learn environment</a></li>
-                    <li><a href="https://hz.osiris-student.nl/home">Study Progress</a></li>
-                    <li><a href="https://github.com/HZ-HBO-ICT">GitHub HBO-ICT</a></li>
+                    <li><a href="https://oer.hz.nl/6978cdea-fb31-430b-9bf9-63206aa07754" target="_blank">HZ HBO-ICT
+                            CER</a></li>
+                    <li><a href="https://hz.nl/uploads/documents/1.4-Over-de-HZ/1.4.3.-Regelingen-en-documenten/OERS/2023-2024/Juli/TWE/IR-B-HBO-ICT-full-time-2023-2024-DEF.pdf"
+                            target="_blank">IR of the HBO-ICT</a></li>
+                    <li><a href="https://learn.hz.nl/my/" target="_blank">Learn environment</a></li>
+                    <li><a href="https://hz.osiris-student.nl/home" target="_blank">Study Progress</a></li>
+                    <li><a href="https://github.com/HZ-HBO-ICT" target="_blank">GitHub HBO-ICT</a></li>
                 </ul>
             </aside>
 
@@ -42,24 +48,24 @@
     <article>
         <h2>Study choice reflections</h2>
         <p style="font-weight: bold;">Read excerpt</p>
-        <p></p>
-        <a href="">Read more</a>
+        <p>Combination of the sections Study choice activities,...</p>
+        <a href="../HTML/articles_1/01.html">Read more</a>
         <hr class="hr">
     </article>
 
     <article>
         <h2>Personal SWOT analysis</h2>
         <p style="font-weight: bold;">Read excerpt</p>
-        <p></p>
-        <a href="">Read more</a>
+        <p>Here are my personal SWOT analysis from the SKC Assignment:...</p>
+        <a href="../HTML/articles_1/02.html">Read more</a>
         <hr class="hr">
     </article>
 
     <article>
         <h2>My programming experience</h2>
         <p style="font-weight: bold;">Read excerpt</p>
-        <p></p>
-        <a href="">Read more</a>
+        <p>For several years in high school, I studied how to code websites using HTML,...</p>
+        <a href="../HTML/articles_1/03.html">Read more</a>
         <hr class="hr">
     </article>
 
@@ -68,7 +74,7 @@
         <p style="font-weight: bold;">Read excerpt</p>
         <p>I received my first feedback from Paula Tavares Leitao Waaijenberg on 21st May 2024. It read the following
             text:...</p>
-        <a href="/HTML/articles/FFS_04.html">Read more</a>
+        <a href="../HTML/articles_1/04.html">Read more</a>
         <hr class="hr">
     </article>
 
@@ -76,7 +82,7 @@
         <h2>The future of work: ICT professionals</h2>
         <p style="font-weight: bold;">Read excerpt</p>
         <p>7 IT Career Paths and How to Get Started in 2024...</p>
-        <a href="/HTML/articles/EIF_05.html">Read more</a>
+        <a href="../HTML/articles_1/05.html">Read more</a>
         <hr class="hr">
     </article>
 
@@ -88,20 +94,14 @@
                 <p class="text">Country: Bulgaria</p>
                 <p class="text">&copy; 2024, Maria М.</p>
             </div>
-            <a href="https://www.instagram.com/" target="_blank"><img src="images/inst.png" alt="инст" width="43"
-                    height="44" class="photo"></a>
-            <a href="https://www.facebook.com/" target="_blank"><img src="images/facebook.png" alt="facebook" width="43"
-                    height="44" class="photo2"></a>
+            <div class="footerImg">
+                <a href="https://www.instagram.com/" target="_blank"><img src="../images/inst.png" alt="инст" width="43"
+                        height="44" class="photo"></a>
+                </br><a href="https://www.facebook.com/" target="_blank"><img src="../images/facebook.png"
+                        alt="facebook" width="43" height="44" class="photo2"></a>
+            </div>
         </main>
     </footer>
 </body>
-
-<script>
-    const asideMenu = document.getElementById('aside-menu');
-    const asideToggle = document.getElementById('aside-toggle');
-    asideToggle.addEventListener('click', () => {
-        asideMenu.classList.toggle('open');
-    });
-</script>
 
 </html>
